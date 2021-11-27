@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="display"></div>
+        <div class="btns">
+            <div class="flex">
+                <button class="operator btn" value="/">/</button>
+                <button class="operator btn" value="*">*</button>
+                <button class="operator btn" value="+">+</button>
+                <button class="operator btn" value="-">-</button>
+            </div>
+            <div class="flex">
+                <button class="numbers btn" value="7">7</button>
+                <button class="numbers btn" value="8">8</button>
+                <button class="numbers btn" value="9">9</button>
+                <button class="clear btn" value="c">C</button>
+            </div>
+            <div class="flex">
+                <button class="numbers btn" value="4">4</button>
+                <button class="numbers btn" value="5">5</button>
+                <button class="numbers btn" value="6">6</button>
+                <button class="btn" id="omit">X</button>
+            </div>
+            <div class="flex">
+                <button class="numbers btn" value="1">1</button>
+                <button class="numbers btn" value="2">2</button>
+                <button class="numbers btn" value="3">3</button>
+                <button class="decimal btn" value=".">.</button>
+            </div>
+            <div class="flex last">
+                <button class="numbers btn" value="0">0</button>
+                <button class="btn" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
